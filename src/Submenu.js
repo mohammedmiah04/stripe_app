@@ -25,7 +25,7 @@ const Submenu = () => {
     if (links.length > 4) {
       setColumns("col-4");
     }
-  }, [location]);
+  }, [location, links]);
 
   return (
     <aside
